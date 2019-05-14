@@ -1,0 +1,38 @@
+{
+          "name": "@org.slashlib/doc-angular-package-format",
+          "description": "packaging angular",
+          "version": "0.1.0",
+          "author": "Dirk Brenckmann <db.developer@gmx.de>",
+          "license": "MIT",
+          "engines": {
+                    "node": ">=10.15.1"
+          },
+          "locale": "de-DE",
+          "keywords": [
+                    "npm",
+                    "angular",
+                    "packaging",
+                    "documentation"
+          ],
+          "noAnalyze": true,
+          "dependencies": {},
+          "devDependencies": {
+                    "grunt": "^1.0.4",
+                    "grunt-cleanempty": "^1.0.4",
+                    "grunt-cli": "^1.3.2",
+                    "grunt-contrib-clean": "^2.0.0",
+                    "grunt-contrib-copy": "^1.0.0",
+                    "grunt-contrib-uglify": "^4.0.1",
+                    "grunt-move": "^1.0.1",
+                    "grunt-newer": "^1.3.0",
+                    "grunt-rollup": "^10.0.0",
+                    "grunt-shell": "^3.0.1",
+                    "grunt-terser": "^0.1.0",
+                    "grunt-ts": "^6.0.0-beta.22",
+                    "rollup": "^1.11.3",
+                    "rollup-plugin-sourcemaps": "^0.4.2",
+                    "rollup-plugin-terser": "^4.0.4",
+                    "rollup-plugin-tsc": "^1.1.15",
+                    "typescript": "^3.4.5"
+          }
+}
